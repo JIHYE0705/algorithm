@@ -9,7 +9,7 @@
 #
 # N이 주어졌을 때, N의 사이클의 길이를 구하는 프로그램을 작성하시오.
 
-number = int(input())
+number = int(input('0에서 99사이의 정수를 입력해주세요 : '))
 
 
 def plus_cycle(number):
