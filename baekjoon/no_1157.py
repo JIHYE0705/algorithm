@@ -48,9 +48,3 @@ else:
 
 
 
-# counts = Counter(word)
-# num = Counter(word).most_common(len(word))
-#
-# print(counts)
-# print(num)
-
