@@ -46,6 +46,7 @@ class MaxHeap:
         return prev_max  # 8 을 반환해야 합니다.
 
 
+
 max_heap = MaxHeap()
 max_heap.insert(8)
 max_heap.insert(6)
