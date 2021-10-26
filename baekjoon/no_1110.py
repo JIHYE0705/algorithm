@@ -13,14 +13,15 @@ number = int(input())
 
 
 def plus_cycle(number):
-    if number >= 100:
+    if number >= 100 or number < 0:
         return
     temp = number
     count = 1
-    while (True):
+    while True:
         last_number = temp % 10
+        temp -= last_number
         temp /= 10
-        first_number = int(temp) % 10
+        first_number = temp % 10
         new_number = first_number + last_number
         if new_number >= 10:
             new_number %= 10
