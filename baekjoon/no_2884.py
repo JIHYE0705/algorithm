@@ -8,10 +8,10 @@
 num = input().split()
 
 hour = int(num[0])
-min = int(num[1]) - 45
+minute = int(num[1]) - 45
 
-if min < 0:
-    min += 60
+if minute < 0:
+    minute += 60
     hour -= 1
 
     if hour <= 0:
@@ -20,6 +20,6 @@ if min < 0:
 if hour == 24:
     hour = 0
 
-print(hour, min)
+print(hour, minute)
 
 
