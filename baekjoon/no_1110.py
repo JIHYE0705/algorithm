@@ -20,8 +20,7 @@ def plus_cycle(number):
     while True:
         last_number = temp % 10
         temp -= last_number
-        temp /= 10
-        first_number = temp % 10
+        first_number = temp / 10
         new_number = first_number + last_number
         if new_number >= 10:
             new_number %= 10
