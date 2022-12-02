@@ -33,8 +33,7 @@ from collections import Counter
 
 word = stdin.readline().strip().upper()
 
-most_word =  Counter(word).most_common(2)
-
+most_word = Counter(word).most_common(2)
 
 if len(most_word) >= 2:
     first_word = most_word[0]
@@ -45,6 +44,3 @@ if len(most_word) >= 2:
         print(first_word[0])
 else:
     print(most_word[0][0])
-
-
-
