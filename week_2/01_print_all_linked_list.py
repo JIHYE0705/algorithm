@@ -31,7 +31,6 @@ class LinkedList():
             cur = cur.next
 
 
-
 linked_list = LinkedList(3)
 linked_list.append(4)
 linked_list.append(5)

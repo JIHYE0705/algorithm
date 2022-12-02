@@ -15,8 +15,9 @@ target_number = 0
 # N - 1 길이의 배열에서 마지막 원소를 더하거나 뺀 경우의수를 추가
 
 result_count = 0
-def get_count_of_ways_to_target_by_doing_plus_or_minus(array, target, current_index, current_sum):
 
+
+def get_count_of_ways_to_target_by_doing_plus_or_minus(array, target, current_index, current_sum):
     if current_index == len(numbers):
         if current_sum == target:
             global result_count
@@ -30,8 +31,6 @@ def get_count_of_ways_to_target_by_doing_plus_or_minus(array, target, current_in
         array, target, current_index + 1, current_sum - numbers[current_index])
 
 
-
-
-print(get_count_of_ways_to_target_by_doing_plus_or_minus(numbers, target_number,0, 0))  # 5를 반환해야 합니다!
+print(get_count_of_ways_to_target_by_doing_plus_or_minus(numbers, target_number, 0, 0))  # 5를 반환해야 합니다!
 
 print(result_count)

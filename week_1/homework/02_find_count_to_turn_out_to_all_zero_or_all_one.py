@@ -31,7 +31,5 @@ def find_count_to_turn_out_to_all_zero_or_all_one(string):
     return min(count_to_all_one, count_to_all_zero)
 
 
-
-
 result = find_count_to_turn_out_to_all_zero_or_all_one(input)
 print(result)

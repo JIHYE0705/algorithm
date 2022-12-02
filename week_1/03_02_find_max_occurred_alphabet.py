@@ -2,7 +2,7 @@ input = "hello my name is sparta"
 
 
 def find_max_occurred_alphabet(string):
-# 선생님 답
+    # 선생님 답
     alphabet_occurrence_array = [0] * 26
 
     for char in string:
@@ -19,7 +19,7 @@ def find_max_occurred_alphabet(string):
 
         if alphabet_occurrence > max_occurrence:
             max_alphabet_index = index
-            max_occurrence  = alphabet_occurrence
+            max_occurrence = alphabet_occurrence
 
     return chr(max_alphabet_index + ord('a'))
 

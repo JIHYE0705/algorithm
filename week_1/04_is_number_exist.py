@@ -5,7 +5,7 @@ def is_number_exist(number, array):
     # 이 부분을 채워보세요!
 
     if number in array:
-     return True
+        return True
     else:
         return False
 

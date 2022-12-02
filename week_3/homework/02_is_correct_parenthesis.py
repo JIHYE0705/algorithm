@@ -16,7 +16,7 @@ def is_correct_parenthesis(string):
     #
     # return False
 
-    #선생님 답
+    # 선생님 답
     stack = []
     for i in range(len(string)):
         if string[i] == "(":
@@ -31,5 +31,6 @@ def is_correct_parenthesis(string):
         return True
     else:
         return False
+
 
 print(is_correct_parenthesis(s))  # True 를 반환해야 합니다!

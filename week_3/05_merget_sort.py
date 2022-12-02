@@ -10,7 +10,7 @@ def merge_sort(array):
     left_array = merge_sort(array[:mid])
     right_array = merge_sort(array[mid:])
 
-    return merge(left_array,right_array)
+    return merge(left_array, right_array)
 
 
 def merge(array1, array2):

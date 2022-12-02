@@ -6,9 +6,8 @@ def find_max_occurred_alphabet(string):
     # 알파벳의 빈도수 먼저 계산
     for word in string:
         if word.isalpha():
-            index = ord(word)  - ord('a')
+            index = ord(word) - ord('a')
             alphabet_occurrence_array[index] += 1
-
 
     # 가장 많이 나온 알파벳 찾기
     max_alphabet = 0
@@ -21,7 +20,6 @@ def find_max_occurred_alphabet(string):
 
     answer = max_index_num + ord('a')
     return chr(answer)
-
 
     # 선생님 답
     # alphabet_array = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
@@ -38,6 +36,7 @@ def find_max_occurred_alphabet(string):
     #         max_alphabet = alphabet
     #
     # return max_alphabet
+
 
 result = find_max_occurred_alphabet(input)
 print(result)

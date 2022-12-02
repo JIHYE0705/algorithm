@@ -32,7 +32,6 @@ class LinkedList:
         #
         # return cur
 
-
         # 1. 노트를 두개 잡는다
         # 2. 한 노드를 다른 노드보다 k만큼 떨어지게 한다
         # 3. 그리고 한 칸씩 같이 이동한다
@@ -48,7 +47,6 @@ class LinkedList:
             slow = slow.next
 
         return slow
-
 
 
 linked_list = LinkedList(6)

@@ -38,7 +38,6 @@ class Stack:
         return self.head is None
 
 
-
 stack = Stack()
 stack.push(3)
 print(stack.peek())

@@ -39,6 +39,7 @@ class Queue:
         # 어떻게 하면 될까요?
         return self.head is None
 
+
 queue = Queue()
 queue.enqueue(3)
 print(queue.peek())

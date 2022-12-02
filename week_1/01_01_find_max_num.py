@@ -10,6 +10,5 @@ def find_max_num(array):
     return max
 
 
-
 result = find_max_num(input)
 print(result)

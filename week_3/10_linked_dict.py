@@ -17,10 +17,9 @@ class LinkedDict:
         for i in range(8):
             self.items.append(LinkedTuple())
 
-    def put(self,key, value):
+    def put(self, key, value):
         index = hash(key) % len(self.items)
         self.items[index].add(key, value)
-
 
     def get(self, key):
         index = hash(key) % len(self.items)

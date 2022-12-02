@@ -1,7 +1,6 @@
 input = [3, 5, 6, 1, 2, 4]
 
 
-
 # 선생님 답 1
 # def find_max_num(array):
 #     for num in array:

@@ -8,7 +8,6 @@ def is_palindrome(string):
         else:
             return False
 
-
     # 선생님 답답
 
     # n  len(string)

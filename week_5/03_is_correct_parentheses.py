@@ -15,6 +15,7 @@ def is_correct_parenthesis(string):  # 올바른 괄호 문자열인지 확인�
             stack.pop()
     return len(stack) == 0
 
+
 def reverse_parenthesis(string):
     reversed_string = ""
     for char in string:
@@ -41,6 +42,7 @@ def separate_to_u_v(string):
     v = ''.join(list(queue))
     return u, v
 
+
 # 1. 입력이 빈 문자열인 경우, 빈 문자열 반환
 def change_to_correct_parenthesis(string):
     if string == "":
@@ -66,6 +68,7 @@ def change_to_correct_parenthesis(string):
     # 뒤집어서 뒤에 붙입니다
     else:
         return "(" + change_to_correct_parenthesis(v) + ")" + reverse_parenthesis(u[1:-1])
+
 
 def get_correct_parentheses(balanced_parentheses_string):
     if is_correct_parenthesis(balanced_parentheses_string):
